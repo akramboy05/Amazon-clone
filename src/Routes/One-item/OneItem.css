@@ -1,0 +1,114 @@
+.oneItem{
+    width: 77%;
+    margin: 0px auto;
+    height: auto; 
+    /* background-color: red; */
+}
+
+body{
+    background-color: #fff;
+}
+.oneItem_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #fff;
+}
+.oneItem_shop{
+    width: 700px;
+    height: 60px;
+    margin: auto;
+}
+.oneItem_img{
+    width: 460px;
+    height: 500px;
+}
+.oneItem_img img{
+    width: 460px;
+    height: 500px;
+    margin-top: 35px;
+}
+.oneItem_img p{
+    font-size: 12px;
+    margin-top: 30px;
+    word-spacing: 5px;
+    color: #333;
+}
+.oneItem_left h2{
+    font-weight: 500;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.oneItem_left p{
+    margin: 5px 50px;
+    color: #40BEB2;
+}
+.oneItem_left span{
+    color: #FFA41C;
+    margin-left: 50px;
+}
+.OneItem_todolist{
+    width: 330px;
+    height: 160px;
+    margin: 40px 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd ;
+}
+.todolist_button{
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.todolist_button:hover{
+    background-color: rgb(226, 224, 224);
+    border: 1px solid #333;
+}
+.OneItem_todolist p{
+    font-size: 11px;
+    color: #40BEB2;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    border-bottom: 1px solid #ddd;
+    width: 80%;
+    padding: 10px;
+}
+.OneItem_todolist p:hover{
+    color: coral;
+}
+.OneItem_todolist p svg {
+    font-size: 20px;
+    margin: 5px;
+}
+.todolistAdd_button{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    background-color: rgb(236, 234, 234);
+    cursor: pointer;
+}
+.oneItem_left h4{
+    margin: 10px 50px;
+}
+
+.addCart_btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 136, 0);
+    margin: 20px 49px;
+    cursor: pointer;
+}
+.addCart_btn:hover{
+    background-color: rgb(255, 165, 80);
+    border: 1px solid #000;
+}
